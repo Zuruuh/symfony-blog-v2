@@ -97,8 +97,15 @@ vendor: composer.lock
 	$(COMPOSER) install
 
 #< Dependencies <#
-
 .PHONY: db migration migrate db-update-schema db-validate-schema redis-flush
+
+#> Lint >#
+
+lint:
+	$(PHP) vendor/bin/phpstan analyse -c phpstan.neon
+
+#< Lint <#
+.PHONY: lint
 
 ##
 ## -----

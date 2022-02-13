@@ -1,0 +1,8 @@
+parameters:
+	level: 9
+	paths:
+		- src/Service
+		- src/Security
+		- src/Form
+		- src/Controller
+		- tests

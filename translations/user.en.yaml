@@ -1,0 +1,15 @@
+email:
+  already_taken: "This email is already taken."
+  blank: "You must specify an email address."
+  invalid: "You must use a valid email address."
+  max_length: "Your email cannot be longer than {{ limit }} characters."
+username:
+  already_taken: "This username is already taken."
+  blank: "You must specify an username."
+  invalid: "You must not use any special characters in your username."
+  min_length: "Your username must be at least {{ limit }} characters long."
+  max_length: "Your username cannot be longer than {{ limit }} characters."
+password:
+  blank: "You must specify a password."
+  min_length: "Your password must be at least {{ limit }} characters long."
+  max_length: "Your password cannot be longer than {{ limit }} characters."
